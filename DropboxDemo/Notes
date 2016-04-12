@@ -1,1 +1,16 @@
-#  Integrated APIs is : v2
+# API : Dropbox HTTP-based Core API v2
+# Features :
+    1. Authentication
+    2. Navigation
+    3. Upload/Download
+# References
+1. Documentation : https://www.dropbox.com/developers/documentation/http/documentation
+2. Sign up : http://dropbox.com/
+3. My Apps : https://www.dropbox.com/developers/apps
+4. Example : https://github.com/dropbox/dropbox-sdk-java
+5. Tutorial : https://www.dropbox.com/developers/documentation/java#tutorial
+
+# Progaurd
+-keepattributes *Annotation*,EnclosingMethod,InnerClasses,Signature
+-keepnames class com.fasterxml.jackson.** { *; }
+-dontwarn com.fasterxml.jackson.databind.**
